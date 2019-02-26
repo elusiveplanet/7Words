@@ -21,7 +21,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 requirements = []
-with open('requirements.txt') as f:
+with open('7Words/requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
