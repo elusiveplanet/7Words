@@ -1,3 +1,8 @@
+# LyricsGenius
+# Copyright 2018 John W. Miller
+# See LICENSE for details.
+
+
 class Artist(object):
     """An artist with songs from the Genius.com database."""
 

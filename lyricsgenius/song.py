@@ -1,9 +1,15 @@
+# LyricsGenius
+# Copyright 2018 John W. Miller
+# See LICENSE for details.
+
 import json
 import os
 from filecmp import cmp
 
 
 class Song(object):
+    """A song from the Genius.com database."""
+
     def __init__(self, json_dict, lyrics=''):
         """ Song Constructor
 
@@ -67,6 +73,7 @@ class Song(object):
 
     @property
     def writer_artists(self):
+        """List of artists credited as writers"""
         return self._body.get('writer_artists')
 
     @property
