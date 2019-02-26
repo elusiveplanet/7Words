@@ -9,8 +9,8 @@ from bs4 import BeautifulSoup
 from string import punctuation
 import time
 
-from lyricsgenius.song import Song
-from lyricsgenius.artist import Artist
+from 7Words.song import Song
+from 7Words.artist import Artist
 
 
 class API(object):

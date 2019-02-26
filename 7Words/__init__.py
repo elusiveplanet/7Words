@@ -1,6 +1,6 @@
 import sys
-assert sys.version_info[0] == 3, "LyricsGenius requires Python 3."
-from lyricsgenius.api import Genius
+assert sys.version_info[0] == 3, "7Words requires Python 3."
+from 7Words.api import Genius
 
 """A library that provides a Python interface to the Genius API"""
 

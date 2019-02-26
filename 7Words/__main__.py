@@ -1,11 +1,6 @@
-#  Command line usage:
-#    python3 -m lyricsgenius --help
-#    python3 -m lyricsgenius song "Begin Again" "Andy Shauf" --save
-#    python3 -m lyricsgenius artist "The Beatles" --max-songs 5 --save
-
 import os
 import argparse
-from lyricsgenius.api import Genius
+from 7Words.api import Genius
 
 
 def main(args=None):
