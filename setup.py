@@ -1,7 +1,3 @@
-# LyricsGenius
-# Copyright 2018 John W. Miller
-# See LICENSE for details.
-
 import sys
 import re
 from os import path
@@ -9,7 +5,7 @@ from setuptools import find_packages, setup
 
 assert sys.version_info[0] == 3, "7Words requires Python 3."
 
-VERSIONFILE = "7words/__init__.py"
+VERSIONFILE = "7Words/__init__.py"
 ver_file = open(VERSIONFILE, "rt").read()
 VSRE = r"^__version__ = ['\"]([^'\"]*)['\"]"
 mo = re.search(VSRE, ver_file, re.M)
@@ -29,7 +25,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name='7words',
+    name='7Words',
     version=version,
     description='Download lyrics and metadata from Genius.com and determine potential FCC violations.',
     long_description=long_description,
@@ -42,7 +38,7 @@ setup(
     install_requires=requirements,
     entry_points={
         'console_scripts': [
-            '7words = 7words.__main__:main']
+            '7Words = 7Words.__main__:main']
     },
     classifiers=[
         'Topic :: Software Development :: Libraries',
