@@ -20,10 +20,6 @@ this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-requirements = []
-with open('7Words/requirements.txt') as f:
-    requirements = f.read().splitlines()
-
 setup(
     name='7Words',
     version=version,
@@ -35,7 +31,6 @@ setup(
     url='https://github.com/renderos17/7Words',
     keywords='genius api genius-api music lyrics artists albums songs FCC violation 7words',
     packages=find_packages(exclude=['tests']),
-    install_requires=requirements,
     entry_points={
         'console_scripts': [
             '7Words = 7Words.__main__:main']
