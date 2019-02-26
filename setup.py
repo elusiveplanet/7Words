@@ -21,7 +21,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='7Words',
+    name='sevenwords',
     version=version,
     description='Download lyrics and metadata from Genius.com and determine potential FCC violations.',
     long_description=long_description,

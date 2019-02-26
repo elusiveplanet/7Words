@@ -1,6 +1,6 @@
 import os
 import argparse
-from 7Words.api import Genius
+from sevenwords.api import Genius
 
 
 def main(args=None):
