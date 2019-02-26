@@ -8,10 +8,6 @@
 *.txt
 *.json
 
-# Jupyter
-/Notebooks
-.ipynb_checkpoints/
-
 # Test files
 .cache/
 

@@ -9,7 +9,7 @@ from lyricsgenius.api import Genius
 
 
 def main(args=None):
-    msg = "Download song lyrics from Genius.com"
+    msg = "Download lyrics and metadata from Genius.com and determine potential FCC violations."
     parser = argparse.ArgumentParser(description=msg)
     parser.add_argument("search_type", type=str.lower, choices=["song", "artist"],
                         help="Specify whether search is for 'song' or 'artist'")

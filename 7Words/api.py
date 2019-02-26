@@ -1,11 +1,3 @@
-# LyricsGenius
-# Copyright 2018 John W. Miller
-# See LICENSE for details.
-
-"""
-API documentation: https://docs.genius.com/
-"""
-
 import os
 import re
 import requests
@@ -26,8 +18,8 @@ class API(object):
 
     # Create a persistent requests connection
     _session = requests.Session()
-    _session.headers = {'application': 'LyricsGenius',
-       'User-Agent': 'https://github.com/johnwmillr/LyricsGenius'}
+    _session.headers = {'application': '7Words',
+       'User-Agent': 'https://github.com/renderos17/7Words'}
     _SLEEP_MIN = 0.2  # Enforce minimum wait time between API calls (seconds)
 
     def __init__(self, client_access_token,
