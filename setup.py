@@ -33,7 +33,7 @@ setup(
     packages=find_packages(exclude=['tests']),
     entry_points={
         'console_scripts': [
-            '7Words = 7Words.__main__:main']
+            'sevenwords = sevenwords.__main__:main']
     },
     classifiers=[
         'Topic :: Software Development :: Libraries',
