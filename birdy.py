@@ -10,12 +10,12 @@ genius = lyricsgenius.Genius("D53BzEbSVz2RmrRLyHfxFbNkFmQwvr6SVhB9QHOKw49i2m0Bmi
 targetPlaylistURI = 'spotify:playlist:2SmqZrAaWFs9GP4AAfNnIZ'
 
 # Import bad word list
-readFile = "badwords.txt"
+readFile = "badwords-min.txt"
 badWordList = []
 with open(readFile) as f:
    lines = f.readline()
 for line in lines.split(","):
-   badWordList.append(" " + line + " ")
+   badWordList.append(line)
 
 playlist = spotify.playlist(targetPlaylistURI)
 #print(playlist)
@@ -59,12 +59,13 @@ for i, n in enumerate(tracks['items']):
 print("Songs with potentially explicit lyrics:")
 i = 0
 for x in explicitSongTitles:
-    print(x)
-    print("Explicit lyrics found:")
+    print(" " + x)
+    print("  Explicit lyrics found:")
     for y in explicitLyricsInSongs[i]:
-        print(y)
+        print("   " + y)
     i += 1
 if noLyricsFound != []:
     print("Songs with no lyrics found:")
     for x in noLyricsFound:
-        print(x)
+        print(" " + x)
+print("Songs should still be manually inspected for suggestive content and explicit lyrics. 7Words is still learning!")
