@@ -1,8 +1,8 @@
 # 7Words
 
-> **7Words is a Python-based tool used to check song lyrics for potentially explicit content.**
->
-> Just pass the tool a link to a valid Spotify playlist and 7Words will tell you which songs are clean and which are explicit.
+**7Words is a Python-based tool used to check song lyrics for potentially explicit content.**
+
+Just pass the tool a link to a valid Spotify playlist and 7Words will tell you which songs are clean and which are explicit.
 
 ## Who's this project for?
 7Words is primarily designed for use by radio stations in the United States. In the US, radio stations are regulated by the Federal Communications Commission (FCC).
