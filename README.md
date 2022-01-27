@@ -42,11 +42,21 @@ The list 7Words uses is a collection of words that are typically considered expl
 7Words will split songs into three categories depending on its findings, `Ready to Air`, `Needs Review`, and `Explicit`.
 
 - `Ready to Air` indicates that the song is clean and has no potentially explicit content.
-- `Needs Review` indicates that the song need human review, as 7Words has found potentially explicit content.
+- `Needs Review` indicates that the song need human review, as 7Words has found potentially explicit content or has not found any lyrics.
 - `Explicit` indicates that the song contains an egregious amount of potentially explicit content and cannot be safely aired.
+
+If explicit content was found, 7Words will display this next to the corresponding song's title and artist name.
 
 At this point, it is expected that the user will review the findings manually and make their own judgements of what is `Ready to Air` and what is `Explicit`.
 
+
+## How can I use the tool?
+
+Today, 7Words can be used with Python3. First, create an API key for both the Spotify and Genius APIs. Insert the keys into `birdy.py` in their respective locations. You'll need to generate environment variables for the Spotify API key.
+
+Then, generate a URI (not a URL) for your chosen Spotify playlist and place it in `birdy.py`. You can select which wordlist to use by changing `useFullWordlist`.
+
+Once you have done this, then run `python3 birdy.py` in a terminal. Congrats! You just ran 7Words! :)
 
 ## Great! So how can 7Words grow as a solution?
 
