@@ -25,7 +25,7 @@ Typically, **manually reviewing song lyrics can take upwards of 1-2 minutes per 
 
 For an hour-long DJ show, it's not uncommon to have 15-20 songs in a playlist, meaning **this task can take upwards of 30 minutes on average**.
 
-> ***In my personal experience as a radio station manager and owner, I've seen many DJs and show hosts frustrated with this process and sometimes even skip it altogether.***
+> ***In my personal experience as a radio station manager and owner, I've seen many DJs and show hosts become frustrated with reviewing song lyrics and sometimes even skip reviewing altogether.***
 
 Skipping the content review process can result in *disaster* for a broadcaster, potentially resulting in large fines or even the loss of a broadcasting license — both fatal blows to a radio station of any size.
 
